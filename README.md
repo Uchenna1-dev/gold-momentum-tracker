@@ -1,4 +1,4 @@
-# gold-timeseries-tracker (API + Time-Series Tracker)
+# Gold-timeseries-tracker (API + Time-Series Tracker)
 A Python tool that automatically collects daily gold price data, tracks trends, and builds a long-term time-series dataset.
 
 ## Overview
@@ -30,7 +30,7 @@ The following metrics are collected each day:
 - Momentum signal — whether the price closed above or below the 7-day moving average
 
 ## Features (Planned & In Progress)
-✔ Daily Data Retrieval
+ ✔Daily Data Retrieval
 
 Automatically pulls daily gold price data from a public API.
 
@@ -54,11 +54,11 @@ Calculates basic trend indicators including:
 
 Evaluates whether the gold market is gaining or losing momentum.
 
-🔄 Scheduled Execution (Planned)
+## Scheduled Execution (Planned)
 
 Integration with task schedulers (Windows Task Scheduler / cron) to run automatically once per day.
 
-🔄 Dashboard (Future Work)
+## Dashboard (Future Work)
 
 Optional dashboard for visualising the time-series trends.
 
